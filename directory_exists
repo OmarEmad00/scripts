@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "New directory name input"
+read ndir
+if [ -d "$ndir" ]
+then
+echo "The Directory given exists"
+else
+`mkdir $ndir`echo "Directory created"
+fi

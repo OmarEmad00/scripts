@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "input first digit 1"
+read a
+echo "input digit 2"
+read b
+(( sum=a+b ))
+echo "Result=$sum"
+echo "Good Job!"
